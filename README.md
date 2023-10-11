@@ -1,4 +1,16 @@
 # Taming Transformers for High-Resolution Image Synthesis
+
+## Edit: my personal notes on this repository 
+
+For installation, I had to execute the following commands: 
+
+* `conda env create -f environment.yaml`
+* `conda activate taming`
+* `conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch-lts -c nvidia`
+* `pip uninstall Pillow`
+* `pip install Pillow==9.5.0`
+
+
 ##### CVPR 2021 (Oral)
 ![teaser](assets/mountain.jpeg)
 
